@@ -9,6 +9,11 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #c8f524;
+  transition: 0.25s;
+}
+
 body {
   background-image: linear-gradient(120deg, #a149e9 0%, #a31c7b 100%);
   color: white;
