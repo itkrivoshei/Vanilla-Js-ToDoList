@@ -92,7 +92,7 @@ form button:hover {
 
 .fall {
   opacity: 0;
-  transform: translateX(100vw);
+  transform: translateX(90vw);
 }
 
 .completed {
