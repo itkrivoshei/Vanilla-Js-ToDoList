@@ -8,7 +8,7 @@ body {
   background-image: linear-gradient(120deg, #a149e9 0%, #a31c7b 100%);
   color: white;
   min-height: 100vh;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -29,7 +29,7 @@ form button {
   font-size: 1rem;
   border: none;
   background: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 form button {
@@ -65,32 +65,27 @@ form button:hover {
   align-items: center;
   transition: all 1s ease;
 }
-.filter-todo {
-  padding: 1rem;
-}
+
 .todo li {
   flex: 1;
 }
 
 .trash-btn,
 .complete-btn {
-  background: #ff6f47;
+  background: #e24f27;
   color: white;
   border: none;
   padding: 1rem;
   cursor: pointer;
   font-size: 1rem;
 }
+
 .complete-btn {
   background: rgb(11, 212, 162);
 }
+
 .todo-item {
   padding: 0rem 0.5rem;
-}
-
-.fa-trash,
-.fa-check {
-  pointer-events: none;
 }
 
 .fall {
