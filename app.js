@@ -48,7 +48,6 @@ function deleteTodo(e) {
   if (item.classList[0] === "complete-btn") {
     const todo = item.parentElement;
     todo.classList.toggle("completed");
-    console.log(todo);
   }
 }
 
