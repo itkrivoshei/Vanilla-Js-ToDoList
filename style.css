@@ -96,6 +96,10 @@ form button:hover {
 }
 
 .completed {
-  text-decoration: line-through;
   opacity: 0.5;
+}
+
+.completed:before {
+  content: "✘";
+  margin-left: 5px;
 }
