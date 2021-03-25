@@ -1,5 +1,5 @@
 # Vanilla-Js-ToDoList
-To-Do-List with Vanilla JavaScript.
+To-Do-List with Vanilla JS.
 ## Browse
 You can check this project in web here: [Vanilla-Js-ToDoList](https://it-krivoshey.github.io/Vanilla-Js-ToDoList)
 ## License
