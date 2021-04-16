@@ -53,6 +53,7 @@ function deleteTodo(e) {
 
 function saveLocalTodos(todo) {
   let todos;
+  
   if (localStorage.getItem("todos") === null) {
     todos = [];
   } else {
@@ -64,6 +65,7 @@ function saveLocalTodos(todo) {
 
 function removeLocalTodos(todo) {
   let todos;
+  
   if (localStorage.getItem("todos") === null) {
     todos = [];
   } else {
@@ -76,6 +78,7 @@ function removeLocalTodos(todo) {
 
 function getTodos() {
   let todos;
+  
   if (localStorage.getItem("todos") === null) {
     todos = [];
   } else {
