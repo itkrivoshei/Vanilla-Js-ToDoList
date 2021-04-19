@@ -67,6 +67,7 @@ function saveLocalTodos(todo) {
   } else {
     todos = JSON.parse(localStorage.getItem("todos"));
   }
+  
   todos.push(todo);
   localStorage.setItem("todos", JSON.stringify(todos));
 }
@@ -99,22 +100,26 @@ function getTodos() {
     // Create todo div
     const todoDiv = document.createElement("div");
     todoDiv.classList.add("todo");
+    
     // Create list
     const newTodo = document.createElement("li");
     newTodo.innerText = todo;
     newTodo.classList.add("todo-item");
     todoDiv.appendChild(newTodo);
     todoInput.value = "";
+    
     // Create Completed Button
     const completedButton = document.createElement("button");
     completedButton.innerHTML = `✓`;
     completedButton.classList.add("complete-btn");
     todoDiv.appendChild(completedButton);
+    
     // Create trash button
     const trashButton = document.createElement("button");
     trashButton.innerHTML = `✗`;
     trashButton.classList.add("trash-btn");
     todoDiv.appendChild(trashButton);
+    
     // Final Todo
     todoList.appendChild(todoDiv);
   });
