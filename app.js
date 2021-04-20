@@ -48,6 +48,7 @@ function deleteTodo(e) {
     todo.classList.add("fall");
     todo.classList.add("completed");
     removeLocalTodos(todo);
+    
     todo.addEventListener("transitionend", (e) => {
       todo.remove();
     });
